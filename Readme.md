@@ -1,4 +1,4 @@
-# Verified Derivatives for Fast Filtering and Schema Validation of Semi-Structured Data (TestSuite)
+# Memoized Derivatives for Fast Filtering and Schema Validation of Semi-Structured Data (Memoize Benchmarks Suite)
 
 Results of running the benchmarks from 2016 to 2026 can be found in the [benches](./benches/) folder.
 
