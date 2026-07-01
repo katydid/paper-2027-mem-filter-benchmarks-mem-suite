@@ -1,15 +1,15 @@
 # 2026-01-19
 
 Benchmark ran using:
-* paper-2026-verified-filter-go: e8569912be1d3829abf9368680437e5c1e80146e
-* paper-2026-verified-filter-testsuite: 623a2dae55d609cd6567495681f1aaa80750cd23
+* paper-2027-mem-filter-benchmarks-mem-go: e8569912be1d3829abf9368680437e5c1e80146e
+* paper-2027-mem-filter-benchmarks-mem-suite: 623a2dae55d609cd6567495681f1aaa80750cd23
 
 ```
 % make paper_benchmarks
 go test -v -run=none -bench=BenchmarkSuite/Conf ./testsuite/intern/
 goos: darwin
 goarch: arm64
-pkg: github.com/katydid/paper-2026-verified-filter/testsuite/intern
+pkg: github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/intern
 cpu: Apple M4 Pro
 BenchmarkSuite
 BenchmarkSuite/ConfIs2026Json
@@ -25,11 +25,11 @@ BenchmarkSuite/ConfIsComputerSciencePb-14                 256488              43
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb-14            70022             16644 ns/op
 PASS
-ok      github.com/katydid/paper-2026-verified-filter/testsuite/intern     8.264s
+ok      github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/intern     8.264s
 go test -v -run=none -bench=BenchmarkSuite/Conf -benchtime=100x ./testsuite/mem/
 goos: darwin
 goarch: arm64
-pkg: github.com/katydid/paper-2026-verified-filter/testsuite/mem
+pkg: github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/mem
 cpu: Apple M4 Pro
 BenchmarkSuite
 BenchmarkSuite/ConfIs2026Json
@@ -45,11 +45,11 @@ BenchmarkSuite/ConfIsComputerSciencePb-14                    100               4
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb-14              100              1091 ns/op
 PASS
-ok      github.com/katydid/paper-2026-verified-filter/testsuite/mem        0.656s
+ok      github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/mem        0.656s
 go test -v -run=none -bench=BenchmarkSuite/Conf -benchtime=1000x ./testsuite/mem/
 goos: darwin
 goarch: arm64
-pkg: github.com/katydid/paper-2026-verified-filter/testsuite/mem
+pkg: github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/mem
 cpu: Apple M4 Pro
 BenchmarkSuite
 BenchmarkSuite/ConfIs2026Json
@@ -65,11 +65,11 @@ BenchmarkSuite/ConfIsComputerSciencePb-14                   1000               2
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb-14             1000               508.9 ns/op
 PASS
-ok      github.com/katydid/paper-2026-verified-filter/testsuite/mem        0.652s
+ok      github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/mem        0.652s
 go test -v -run=none -bench=BenchmarkSuite/Conf -benchtime=10000x ./testsuite/mem/
 goos: darwin
 goarch: arm64
-pkg: github.com/katydid/paper-2026-verified-filter/testsuite/mem
+pkg: github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/mem
 cpu: Apple M4 Pro
 BenchmarkSuite
 BenchmarkSuite/ConfIs2026Json
@@ -85,11 +85,11 @@ BenchmarkSuite/ConfIsComputerSciencePb-14                  10000               2
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb-14            10000               342.8 ns/op
 PASS
-ok      github.com/katydid/paper-2026-verified-filter/testsuite/mem        0.682s
+ok      github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/mem        0.682s
 go test -v -run=none -bench=BenchmarkSuite/Conf ./testsuite/auto/
 goos: darwin
 goarch: arm64
-pkg: github.com/katydid/paper-2026-verified-filter/testsuite/auto
+pkg: github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/auto
 cpu: Apple M4 Pro
 BenchmarkSuite
 BenchmarkSuite/ConfIs2026Json
@@ -105,5 +105,5 @@ BenchmarkSuite/ConfIsComputerSciencePb-14                7600720               1
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb
 BenchmarkSuite/ConfIsIn2026OrLate2025AndEUPb-14          4572258               261.9 ns/op             0 B/op          0 allocs/op
 PASS
-ok      github.com/katydid/paper-2026-verified-filter/testsuite/auto       10.721s
+ok      github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go/testsuite/auto       10.721s
 ```

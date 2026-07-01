@@ -1,10 +1,8 @@
 # Verified Derivatives for Fast Filtering and Schema Validation of Semi-Structured Data (TestSuite)
 
-[![Build Status](https://github.com/katydid/paper-2026-verified-filter-testsuite/actions/workflows/build.yml/badge.svg)](https://github.com/katydid/paper-2026-verified-filter-testsuite/actions)
-
 Results of running the benchmarks from 2016 to 2026 can be found in the [benches](./benches/) folder.
 
-Instructions for running the testsuite can be found at [katydid/paper-2026-verified-filter-go](https://github.com/katydid/paper-2026-verified-filter-go).
+Instructions for running the testsuite can be found at [katydid/paper-2027-mem-filter-benchmarks-mem-go](https://github.com/katydid/paper-2027-mem-filter-benchmarks-mem-go).
 
 The test suite is a language agnostic test and benchmark suite, so that it can be used by multiple implementation languages.
 The test suite contains some Go code to help to generate tests for multiple serialization formats.
@@ -26,7 +24,7 @@ The validator benchmarks are located in the `./validator/benches` folder.
 This folder is not checked in, because of its size.
 Instead this folder can be generated, by running `make regenerate-all` or `make regenerate-paper-benchmarks` depending on which benchmarks you want to run.
 This will require `go` to be installed and this folder to checked out to
-`./src/github.com/katydid/paper-2026-verified-filter-testsuite`.
+`./src/github.com/katydid/paper-2027-mem-filter-benchmarks-mem-suite`.
 
 Inside each codec folder is a list of benchcase folders, each with a name.
 Files in the codec folder are schemas that might be required by a benchcase.
